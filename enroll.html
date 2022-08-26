@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="enroll.css" />
+    <title>DE-ROCK SCHOOL</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md bg-white nav-white">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">DE-ROCK's SCHOOL</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Homepage</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="staff.html" class="nav-link">Our Staff</a>
+            </li>
+            <li class="nav-item">
+              <a href="enroll.html" class="nav-link">Enroll with Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <!-- Form -->
+    <form>
+      <div class="container" id="myform">
+        <div class="textContent">
+          <h2 class="container" id="h2Container">
+            Enroll Your Ward with Us Today!
+          </h2>
+          <span id="spanContent"
+            >Please fill in the form as required. No field should be left
+            empty.</span
+          >
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-6">
+            <label for="">First Name</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Please fill in the first name of your ward"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="">Surname</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Please fill in your ward's surname"
+              required
+            />
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-6">
+            <label for="">Gender</label>
+            <select id="gender" class="form-control">
+              <option disabled selected class="form-control">
+                Please select your ward's gender
+              </option>
+              <option value="male" class="form-control">Male</option>
+              <option value="female" class="form-control">Female</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="">Date of Birth</label>
+            <input
+              type="date"
+              class="form-control"
+              placeholder="date of birth"
+              required
+            />
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-6">
+            <label for="">Parent/Guardian's Phone Number</label>
+            <input
+              type="number"
+              class="form-control"
+              placeholder="Please enter your phone number"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="">Student's Class</label>
+            <select id="classes" class="form-control">
+              <option disabled selected class="form-control">
+                What class are you enrolling your ward for?
+              </option>
+              <option value="jss1" class="form-control">JSS1</option>
+              <option value="jss2" class="form-control">JSS2</option>
+              <option value="jss3" class="form-control">JSS3</option>
+              <option value="ss1" class="form-control">SS1</option>
+              <option value="ss2" class="form-control">SS2</option>
+              <option value="ss3" class="form-control">SS3</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-12">
+            <label for="">Home Address</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Residential Address"
+              required
+            />
+          </div>
+        </div>
+
+        <button class="btn btn-outline-primary form-control submitBtn">
+          Submit
+        </button>
+      </div>
+    </form>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            &copy;(2022) Chinazaekpere Uchenna <br />
+            <span>8, Elias Lane, White House B/stop, Okokomaiko, Lagos</span>
+          </div>
+          <div class="col" id="footerright">
+            Dummy Website Built <br />
+            <span>by Chinazaekpere Uchenna</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="enrollScript.js"></script>
+  </body>
+</html>

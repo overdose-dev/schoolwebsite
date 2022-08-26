@@ -1,0 +1,88 @@
+* {
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: #11294a;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #11294a;
+}
+
+.nav-item a:hover {
+  color: #f6c443;
+}
+
+#myform {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  padding-top: 2px;
+}
+
+.textContent {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-radius: 5px;
+  /* color: #f6c443; */
+}
+
+#h2Container {
+  background-color: #f6c443;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 12px;
+  border-radius: 15px;
+  color: #11294a;
+}
+
+#spanContent {
+  padding-top: 0px;
+  margin-top: 0;
+  font-size: 11px;
+  color: #11294a;
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 0%;
+}
+
+.submitBtn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#footer {
+  background-color: white;
+  width: 100%;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 5px;
+}
+
+#footerright {
+  text-align: right;
+}
