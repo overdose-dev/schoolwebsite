@@ -38,11 +38,47 @@ body {
   text-align: center;
 }
 
-.trickercenter {
-  position: fixed;
-  top: 84%; /* 50% for perfect centering */
-  left: 50%;
+#middleBody {
+  background-color: white;
+}
+
+.text-button {
+  background-color: #f6c443;
+  border-radius: 7px;
+  padding: 0;
+  margin: 0;
+}
+
+.trickcenter {
+  position: absolute;
+  top: 45%; /* 50% for perfect centering */
+  left: 35%;
   transform: translate(-50%, -50%);
+  text-align: left;
+  letter-spacing: 0;
+}
+
+.frontText {
+  text-align: left;
+  font-size: 20px;
+}
+
+.supportText {
+  font-size: 9px;
+}
+
+hr {
+  margin: 5px;
+  padding: 0;
+}
+
+marquee {
+  font-size: 16px;
+}
+
+.bottomText {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 #footer {
