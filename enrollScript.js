@@ -24,20 +24,12 @@ function submitBtn() {
         " " +
         surname.value +
         ", " +
-        "you have sucessfully enrolled"
+        "you have successfully enrolled"
     );
   } else {
     alert("Your enrollment was not successful. Please try again later.");
   }
 }
-
-// function runIt() {
-//   if (pass1.value == pass2.value) {
-//     alert("Login Successful");
-//   } else {
-//     alert("Login Not Successful");
-//   }
-// }
 
 // if (number.value == "") {
 //     text.textContent = "Input field cannot be empty";

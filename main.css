@@ -44,6 +44,11 @@ body {
   color: #11294a;
 }
 
+.container {
+  text-align: left;
+  justify-content: left;
+}
+
 .text-button {
   background-color: #f6c443;
   border-radius: 7px;
@@ -57,18 +62,32 @@ body {
   left: 35%;
   transform: translate(-50%, -50%);
   text-align: left;
+  justify-content: left;
   letter-spacing: 0;
 }
 
 .frontText {
   text-align: left;
+  justify-content: left;
   font-size: 20px;
   margin-left: 80px;
   padding-left: 170px;
 }
 
+.overlay {
+  display: grid;
+  background-color: #11294a;
+  text-align: left;
+  justify-content: left;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+}
+
 .supportText {
   font-size: 9px;
+  text-align: left;
+  justify-content: left;
 }
 
 .welcome {
