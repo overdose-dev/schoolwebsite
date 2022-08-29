@@ -40,6 +40,7 @@ body {
 
 #middleBody {
   background-color: white;
+  width: 100%;
 }
 
 .text-button {
@@ -65,6 +66,12 @@ body {
 
 .supportText {
   font-size: 9px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
 }
 
 hr {
