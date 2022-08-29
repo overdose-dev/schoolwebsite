@@ -41,6 +41,7 @@ body {
 #middleBody {
   background-color: white;
   width: 100%;
+  color: #11294a;
 }
 
 .text-button {
@@ -62,10 +63,52 @@ body {
 .frontText {
   text-align: left;
   font-size: 20px;
+  margin-left: 80px;
+  padding-left: 170px;
 }
 
 .supportText {
   font-size: 9px;
+}
+
+.welcome {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.principal {
+  font-style: italic;
+  font-size: 10px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.welcomeText {
+  text-align: left;
+  justify-content: left;
+}
+
+.principalPost {
+  font-style: italic;
+  font-size: 10px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.principalName {
+  font-weight: bold;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.alignCenter {
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 @media (min-width: 768px) {
