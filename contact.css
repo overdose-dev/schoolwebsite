@@ -1,0 +1,59 @@
+* {
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #11294a;
+}
+
+.nav-item a:hover {
+  color: #f6c443;
+}
+
+.lead {
+  font-weight: 600;
+  color: #11294a;
+}
+
+#instructors {
+  background-color: white;
+  color: #11294a;
+}
+
+.card-title {
+  color: white;
+}
+
+.card {
+  background-color: #11294a;
+  height: 180px;
+}
+
+h2 {
+  color: black;
+}
+
+#footer {
+  background-color: white;
+  width: 100%;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 5px;
+}
+
+#footerright {
+  text-align: right;
+}
