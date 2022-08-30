@@ -1,8 +1,10 @@
 * {
+  @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
   letter-spacing: 1px;
 }
 
 body {
+  font-family: "Nunito", sans-serif;
   background-color: #11294a;
 }
 
@@ -57,7 +59,7 @@ body {
 .trickcenter {
   position: absolute;
   top: 50%; /* 50% for perfect centering */
-  left: 45%;
+  left: 60%;
   transform: translate(-50%, -50%);
   letter-spacing: 0;
 }
