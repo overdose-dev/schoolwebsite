@@ -25,22 +25,57 @@ body {
 
 .lead {
   font-weight: 400;
+  text-align: center;
+  color: white;
 }
 
-#instructors {
-  background-color: #11294a;
+#about {
+  background-color: white;
+  width: 100%;
+  letter-spacing: 0;
+  margin: 5px;
+  padding: 20px;
 }
 
-.card-title {
-  color: #11294a;
+.beta {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 20px;
 }
 
-.card {
-  height: 470px;
+.subBeta {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
 }
 
-h4 {
-  color: #f6c443;
+#callToAction {
+  text-align: center;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.textHeader {
+  font-size: 30px;
+  margin: 5px;
+  text-align: left;
+}
+
+#spanContent {
+  text-align: left;
+  font-size: 12px;
+  line-height: 0px;
 }
 
 #footer {
