@@ -27,7 +27,9 @@ function submitBtn() {
         "you have successfully enrolled"
     );
   } else {
-    alert("Your enrollment was not successful. Please try again.");
+    alert(
+      "Your enrollment was not successful. Please fill in all input fields."
+    );
   }
 }
 
