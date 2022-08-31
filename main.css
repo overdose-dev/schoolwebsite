@@ -146,6 +146,19 @@ marquee {
   margin-bottom: 0;
 }
 
+/* .smoothscroll {
+  position: sticky;
+  bottom: 0;
+  right: 30px;
+  z-index: 99;
+  background-color: white;
+  color: #11294a;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+} */
+
 #footer {
   background-color: white;
   width: 100%;
