@@ -30,14 +30,19 @@ body {
   font-weight: 400;
   text-align: center;
   color: white;
+  padding: 45px;
 }
 
 #about {
   background-color: white;
-  width: 100vw;
+  width: fit-content;
   letter-spacing: 0;
   margin: 5px;
-  padding: 20px;
+  padding: 40px;
+}
+
+.nav-item .active {
+  color: #f6c443 !important;
 }
 
 .beta {
@@ -47,6 +52,7 @@ body {
   margin-bottom: 0;
   padding-bottom: 0;
   padding-top: 20px;
+  margin: 15px;
 }
 
 .subBeta {
@@ -58,6 +64,7 @@ body {
 #callToAction {
   text-align: center;
   color: white;
+  padding: 45px;
 }
 
 a {
@@ -73,7 +80,7 @@ a:hover {
   font-size: 30px;
   margin: 5px;
   text-align: left;
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 #spanContent {
@@ -87,7 +94,7 @@ a:hover {
   width: 100%;
   font-size: 13px;
   font-weight: 500;
-  padding: 5px;
+  padding: 45px;
 }
 
 #footerright {

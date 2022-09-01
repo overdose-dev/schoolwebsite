@@ -25,6 +25,10 @@ body {
   color: #f6c443;
 }
 
+.nav-item .active {
+  color: #f6c443 !important;
+}
+
 .lead {
   font-weight: 400;
 }

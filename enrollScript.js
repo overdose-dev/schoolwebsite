@@ -32,18 +32,3 @@ function submitBtn() {
     );
   }
 }
-
-// if (number.value == "") {
-//     text.textContent = "Input field cannot be empty";
-//     text.style.color = "#fff";
-//     text.style.display = "block";
-//   } else if (number.value.match(regex)) {
-//     text.textContent = "Congrats! You Entered A Valid Phone Number";
-//     text.style.display = "block";
-//     text.style.color = "white";
-//     location.href = "https://google.com";
-//   } else {
-//     text.textContent = "Ooops! Your Phone Number is Invalid";
-//     text.style.display = "block";
-//   }
-// });
