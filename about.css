@@ -1,7 +1,10 @@
-* {
+*,
+*::before,
+*::after {
   @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
   letter-spacing: 1px;
   box-sizing: border-box;
+  letter-spacing: 1px;
 }
 
 body {
@@ -10,8 +13,8 @@ body {
 }
 
 .navbar {
-  overflow: hidden;
-  position: fixed;
+  /* overflow: hidden; */
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 1;
@@ -22,15 +25,39 @@ body {
   color: #11294a;
 }
 
+.nav-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--border-size);
+  background-color: #11294a;
+
+  transform: scaleX(0);
+}
+
+.nav-item:hover::before,
+.nav-item:focus::before {
+  transform: scaleX(1);
+}
+
 .nav-item a:hover {
   color: #f6c443;
 }
 
 .lead {
   font-weight: 400;
+  font-size: 13px;
   text-align: center;
   color: white;
-  padding: 45px;
+  padding-bottom: 45px;
+}
+
+.DeRock {
+  color: #f6c443;
+  padding-top: 45px;
+  font-size: medium;
 }
 
 #about {
@@ -48,7 +75,7 @@ body {
 .beta {
   font-size: 20px;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin-bottom: 0;
   padding-bottom: 0;
   padding-top: 20px;
@@ -77,22 +104,26 @@ a:hover {
 }
 
 .textHeader {
-  font-size: 30px;
+  font-size: 25px;
   margin: 5px;
   text-align: left;
-  margin-top: 75px;
+  margin-top: 80px;
 }
 
 #spanContent {
   text-align: left;
-  font-size: 15px;
-  line-height: 2px;
+  font-size: 14px;
+  line-height: 1.5px;
+}
+
+.bi {
+  padding: 10px;
 }
 
 #footer {
   background-color: white;
   width: 100%;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   padding: 45px;
 }
